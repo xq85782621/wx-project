@@ -1,0 +1,3 @@
+<navigator url="./input/input"><button>input组件</button></navigator>
+<navigator url="./swiper/swiper"><button>swiper组件</button></navigator>
+<navigator url="./map/map"><button>map组件</button></navigator>

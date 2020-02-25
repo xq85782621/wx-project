@@ -1,0 +1,39 @@
+<!--pages/demo/demo.wxml-->
+<navigator url="./shijian/shijian"><button>事件</button></navigator>
+
+<view > 
+
+    <!-- 这里无论给ture或者false都是为ture,是因为语法解析布尔类型的属性时候，字符串不为空的情况下就是true -->
+    <!-- <checkbox checked="false" ></checkbox> -->
+    <!-- 所以需要{{}} 这种形式，就不会解析错了 -->
+    <!-- <checkbox checked="{{ false }}" ></checkbox> -->
+
+  <text>wx:if的使用</text>
+
+
+   <text>\nwx:for 的使用</text>
+  <view wx:for="{{ learnList }}" wx:for-item="item" wx:for-index="i" wx:key="index">
+    <text>{{ i }}</text>
+    <checkbox checked="{{ item.completed }}"></checkbox>
+    <text>{{item.name}}</text>
+  </view>
+
+  <text>\n绑定事件以及事件传递参数</text>
+  <!-- 事件触发方法的时候传递参数不能通过方法名() 这种形式传递，要使用dataset方式 -->
+  <button bindtap="addNumber" data-payload="100">点击+1</button> {{ number }}
+
+
+  <text>\n阻止冒泡</text>
+  <view class="outer" bindtap="outerHandler">
+    <!-- <view class="inner" bindtap="innerHandler"></view> -->
+    <!-- 使用catch可以绑定事件的同时并且阻止冒泡 -->
+    <view class="inner" catchtap="innerHandler"></view>
+  </view>
+
+  <text>\n相机</text>
+  <button  bindtap="saoma">扫码</button>
+  <text>{{resultCode}}</text>
+</view>
+
+
+

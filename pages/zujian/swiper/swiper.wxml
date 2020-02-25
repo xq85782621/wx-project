@@ -1,0 +1,26 @@
+
+
+<swiper autoplay="{{ autoplay }}" interval="{{ interval }}" duration="{{duration}}"  indicator-dots="{{indicatorDots}}">
+  <swiper-item>
+    <image   src="../../../images/test1.jpg"></image>
+  </swiper-item>
+   <swiper-item>
+    <view>B</view>
+  </swiper-item>
+   <swiper-item>
+    <view>C</view>
+  </swiper-item>
+</swiper>
+
+
+<view>
+  <text>指示点</text>
+  <switch checked="{{indicatorDots}}" bindchange="changeIndicatorDots" />
+</view>
+
+
+ <slider bindchange="intervalChange" value="{{interval}}" min="500" max="2000"/>
+  <view >
+    <text>自动播放间隔时长(ms)</text>
+    <text >{{interval}}</text>
+  </view>

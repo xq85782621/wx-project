@@ -1,0 +1,4 @@
+<navigator url="./jiemian/jiemian"><button>界面API</button></navigator>
+<navigator url="./meiti/meiti"><button>媒体API</button></navigator>
+<navigator url="./wangluo/wangluo?id=1"><button>网络API</button></navigator>
+

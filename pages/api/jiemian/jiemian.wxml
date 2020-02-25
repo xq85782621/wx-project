@@ -1,0 +1,5 @@
+  
+<button bindtap="showToast">一般消息框</button>
+<button bindtap="showModal">模态对话框</button>
+<button bindtap="showLoading">loading 提示框</button>
+<button bindtap="showActionSheet">显示操作菜单</button>

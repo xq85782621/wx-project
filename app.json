@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/zujian/zujian",
+    "pages/zujian/input/input",
+    "pages/zujian/swiper/swiper",
+    "pages/zujian/map/map",
+    "pages/demo/demo",
+    "pages/demo/shijian/shijian",
+    "pages/api/api",
+    "pages/api/jiemian/jiemian",
+    "pages/api/meiti/meiti",
+    "pages/api/wangluo/wangluo",
+    "pages/index/index",
+    "pages/music/music",
+    "pages/logs/logs"
+  ],
+ 
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微信",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#219ef3",
+    "color": "#4444",
+    "backgroundColor": "#f6f6f6",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-active.png"
+      },
+      {
+        "pagePath": "pages/demo/demo",
+        "text": "demo",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-active.png"
+      },
+      {
+        "pagePath": "pages/api/api",
+        "text": "API",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-active.png"
+      },
+      {
+        "pagePath": "pages/zujian/zujian",
+        "text": "组件",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  }
+}

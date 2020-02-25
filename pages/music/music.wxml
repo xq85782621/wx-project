@@ -1,0 +1,11 @@
+<view class ="root">
+  <view class="tabs">
+    <text>个性推荐</text>
+    <text>歌单</text>
+    <text>主播电台</text>
+    <text>排行榜</text>
+  </view>
+  <view class="content"></view>
+  <view class="footer"></view>
+
+</view>

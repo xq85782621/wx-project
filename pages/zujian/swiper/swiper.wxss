@@ -1,0 +1,15 @@
+swiper-item{
+  background-color: pink;
+  overflow: visible;
+
+}
+
+swiper {
+  height: 300rpx;
+  overflow: visible;
+
+}
+
+image {
+  width: 100%
+}

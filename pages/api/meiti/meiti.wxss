@@ -1,0 +1,28 @@
+.img-container {
+  width: 750rpx;
+  height: 240rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-container image {
+  height: 225rpx;
+  width: 225rpx;
+}
+
+
+.imgBox {
+  width: 225rpx;
+  height: 225rpx;
+  border: 1rpx #f0f0f0 solid;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.imgCancel {
+  position: absolute;
+  top: 0rpx;
+  right: 0rpx;
+}

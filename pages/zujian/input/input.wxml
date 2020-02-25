@@ -1,0 +1,16 @@
+<!-- auto-focus 属性 -->
+<input  auto-focus placeholder="将会获取焦点"/>
+
+<!-- maxlength 属性 -->
+<input  maxlength="10" placeholder="最大输入长度为10" />
+
+<!-- type 属性位 number -->
+<input type="number" placeholder="这是一个数字输入框" />
+
+<!-- 同 bindinput 事件进行绑定 -->
+<input   maxlength="10" bindinput="bindKeyInput" placeholder="输入同步到view中"/>
+{{ inputValue }}
+
+<!-- 每次输入内容，对输入的内容进行逻辑处理 -->
+<!-- 例如不允许输入特殊字符的时候 -->
+<input  bindinput="bindReplaceInput" placeholder="对内容进行自定义处理" />

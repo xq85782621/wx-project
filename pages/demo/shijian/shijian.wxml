@@ -1,0 +1,10 @@
+ <text>阻止冒泡</text>
+  <view class="outer" bindtap="outerHandler" id='outer'>
+    <!-- <view class="inner" bindtap="innerHandler"></view> -->
+    <!-- 使用catch可以绑定事件的同时并且阻止冒泡 -->
+    <view class="inner" bindtap="innerHandler" id='inner' data-name='我是inner啦'></view>
+  </view>
+
+
+   <text>事件对象详解</text>
+   <button bindtap="bindTest">触发点击事件</button>
